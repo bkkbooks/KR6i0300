@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6i0300/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0300/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大乘百福莊嚴相經
+  identifiers:
+    krp: KR6i0300
+    cbeta: T16n0662
+    cbeta_old_id: T16n0662
+    authorityid: CA0000149
+    json_key: T0662
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T16/T16n0662.xml
+    old_id: T16n0662
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0300_000-T.yaml, hash: 'sha256:e6fa5b22e6d8e87522ce7412b34d8b866a4f540f6262336ab70adb539696f35a'}
+  - {seq: 1, filename: KR6i0300_001-T.yaml, hash: 'sha256:a6fefa1341778464b663eb3b2de232fd28c8ce0896ccffa1e66c2600395d8cf4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0300_000-T.markers.yaml, hash: 'sha256:efc8a00e9980e3f8481aa489b1dc3b8a74ce63686db202730a2dd5e2cc2869a7'}
+  - {seq: 1, role: markers, filename: assets/KR6i0300_001-T.markers.yaml, hash: 'sha256:7db72ba79d9d0f0253cd106971f556cc85c20eb2f4d41e3265c27c2598a50623'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0300_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3515
+  label: 大乘百福莊嚴相經
+  type: juan
+  level: 1
+hash: sha256:e1ba4e89bbb51991b460c761b1947a57a6e75195d38f2a8d45aca666099d5d22
