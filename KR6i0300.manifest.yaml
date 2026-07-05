@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0300_000.yaml, hash: 'sha256:e6fa5b22e6d8e87522ce7412b34d8b866a4f540f6262336ab70adb539696f35a'}
-  - {seq: 1, filename: KR6i0300_001.yaml, hash: 'sha256:3fe4ab7e22d385d3caef0eb7c79cb8082896b7f383b2237e93fa39ad1f3a7708'}
+  - {seq: 1, filename: KR6i0300_001.yaml, hash: 'sha256:a6fefa1341778464b663eb3b2de232fd28c8ce0896ccffa1e66c2600395d8cf4'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6i0300_001.markers.yaml, hash: 'sha256:1537da8992aabd2539e1159e1d65fa3cf659feb3aaf51e5c4853ecf74adefd59'}
+  - {seq: 0, role: markers, filename: assets/KR6i0300_000.markers.yaml, hash: 'sha256:c44dd47eac985a5938e8009ef13c2a10f2389495570e00952178805fec37fe8d'}
+  - {seq: 1, role: markers, filename: assets/KR6i0300_001.markers.yaml, hash: 'sha256:b7d7cbedeb11fd4159e6e2231a1877cf9ba4612b61b912bc0555383c13b38202'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 大乘百福莊嚴相經
   type: juan
   level: 1
-hash: sha256:e44303d9e39cb35f4ee79462caa8a6adc5464a8b629de684193f18e86e957fcc
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:805031216ea8922245390e16aeb5656cda1efbe52155b08f2e818393e75a7ec1
