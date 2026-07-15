@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0300/v1
 canonical_location: https://kanripo.org/bkk/KR6i0300/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大乘百福莊嚴相經
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0300_000.yaml, hash: 'sha256:e6fa5b22e6d8e87522ce7412b34d8b866a4f540f6262336ab70adb539696f35a'}
-  - {seq: 1, filename: KR6i0300_001.yaml, hash: 'sha256:a6fefa1341778464b663eb3b2de232fd28c8ce0896ccffa1e66c2600395d8cf4'}
+  - {seq: 1, filename: KR6i0300_001.yaml, hash: 'sha256:44b536b00d4ad90e2a9eddaaff8e26b36607743cb5d619f089e1059e8b42233a'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0300_000.markers.yaml, hash: 'sha256:c44dd47eac985a5938e8009ef13c2a10f2389495570e00952178805fec37fe8d'}
-  - {seq: 1, role: markers, filename: assets/KR6i0300_001.markers.yaml, hash: 'sha256:b7d7cbedeb11fd4159e6e2231a1877cf9ba4612b61b912bc0555383c13b38202'}
+  - {seq: 1, role: markers, filename: assets/KR6i0300_001.markers.yaml, hash: 'sha256:0c53f1c6ee70db74e8cc565387681623badfde7c43f32fb4295313c361f3d118'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 大乘百福莊嚴相經
   type: juan
   level: 1
-hash: sha256:805031216ea8922245390e16aeb5656cda1efbe52155b08f2e818393e75a7ec1
+hash: sha256:9b5cbaab6690ca1dd9c768f4c43dc2ecc47a5be4ee5ebe6422aa1aad1f30880d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
